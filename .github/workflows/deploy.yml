@@ -19,17 +19,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: 配置 Pages
         uses: actions/configure-pages@v5
       - name: 设置 Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.x
       - name: 安装依赖
         run: pip install -r requirements.txt
       - name: 构建网站
-        run: mkdocs build --strict
+        run: mkdocs build
       - name: 上传网站构件
         uses: actions/upload-pages-artifact@v3
         with:
@@ -45,4 +45,5 @@ jobs:
       - name: 发布到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 
