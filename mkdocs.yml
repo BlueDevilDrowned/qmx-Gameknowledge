@@ -8,7 +8,6 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   language: zh
-  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.sections
@@ -100,6 +99,7 @@ extra_css:
   - stylesheets/extra.css
 
 copyright: Copyright &copy; 2026 工作室知识库
+
 
 
 
