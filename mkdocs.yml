@@ -1,7 +1,7 @@
 site_name: 游戏知识库
 site_description: 由工作室共同维护的游戏开发、设计与运营知识库
-site_url: https://bluedevildrowned.github.io/qmx-Gameknowledge/
-repo_url: https://github.com/BlueDevilDrowned/qmx-Gameknowledge
+site_url: https://qmx-gameorganization.github.io/qmx-Gameknowledge/
+repo_url: https://github.com/QMX-GameOrganization/qmx-Gameknowledge
 repo_name: BlueDevilDrowned/qmx-Gameknowledge
 edit_uri: edit/main/docs/
 
@@ -88,12 +88,12 @@ nav:
       - 文章: blog/index.md
       - 标签: blog/tags.md
   - 关于:
-      - 贡献指南: https://github.com/BlueDevilDrowned/qmx-Gameknowledge/blob/main/CONTRIBUTING.md
+      - 贡献指南: https://github.com/QMX-GameOrganization/qmx-Gameknowledge/blob/main/CONTRIBUTING.md
 
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/BlueDevilDrowned/qmx-Gameknowledge
+      link: https://github.com/QMX-GameOrganization/qmx-Gameknowledge
       name: GitHub 仓库
   generator: false
 
@@ -101,6 +101,7 @@ extra_css:
   - stylesheets/extra.css
 
 copyright: Copyright &copy; 2026 工作室知识库
+
 
 
 
