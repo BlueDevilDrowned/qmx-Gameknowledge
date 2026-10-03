@@ -2,7 +2,7 @@
 
 这是一个由工作室共同维护的游戏知识库，记录游戏设计、开发、工具、运营和项目复盘经验。
 
-网站地址：<https://bluedevildrowned.github.io/qmx-Gameknowledge/>
+网站地址：<https://qmx-gameorganization.github.io/qmx-Gameknowledge/>
 
 ## 本地运行
 
